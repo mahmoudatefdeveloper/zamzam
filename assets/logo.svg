@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+    <style>
+        .primary-orange { fill: #FF6B35; }
+        .secondary-orange { fill: #FFB347; }
+        .primary-blue { fill: #2B4C7E; }
+        .secondary-blue { fill: #4ECDC4; }
+    </style>
+    <g transform="translate(100, 100)">
+        <!-- Bird shape -->
+        <path class="primary-orange" d="M150,50 L200,0 L250,50 L200,100 Z"/>
+        <path class="secondary-orange" d="M100,100 L150,50 L200,100 L150,150 Z"/>
+        <path class="primary-blue" d="M200,100 L250,50 L300,100 L250,150 Z"/>
+        <path class="secondary-blue" d="M150,150 L200,100 L250,150 L200,200 Z"/>
+    </g>
+</svg>
