@@ -400,6 +400,36 @@ body {
     color: var(--orange);
 }
 
+/* Address Styles */
+.address-text {
+    display: inline-block;
+    max-width: 300px;
+    line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+    .address-text {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    .address-text {
+        max-width: 500px;
+    }
+}
+
+.address-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.address-wrapper span {
+    display: block;
+    line-height: 1.5;
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .hero {
