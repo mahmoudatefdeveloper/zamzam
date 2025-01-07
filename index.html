@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>زمزم للسياحة - Zamzam Tourism</title>
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="assets/Logo.png" alt="Zamzam Tourism Logo" height="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">خدماتنا</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#why-zamzam">لماذا زمزم</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">آراء العملاء</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://wa.me/+201127861194" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="direction: ltr;" href="tel:+201127861194">+2 0112 786 1194</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right">
+                    <h1 class="display-4 fw-bold">رحلتك، التزامنا</h1>
+                    <p class="lead">استمتع بتجربة حجز رحلات سلسة مع زمزم للسياحة</p>
+                    <a href="https://wa.me/+201127861194" class="btn btn-primary btn-lg">احجز رحلتك</a>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="search-box shadow p-4 rounded position-relative blur-overlay">
+                        <div class="coming-soon-overlay">
+                            <h3 class="text-white mb-0">قريباً...</h3>
+                        </div>
+                        <h2 class="text-center mb-4">ابحث عن رحلتك</h2>
+                        <form class="row g-3 needs-validation" novalidate>
+                            <div class="col-md-6">
+                                <label class="form-label">المغادرة</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-plane-departure"></i></span>
+                                    <input type="text" class="form-control" placeholder="مدينة المغادرة" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">الوجهة</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-plane-arrival"></i></span>
+                                    <input type="text" class="form-control" placeholder="مدينة الوصول" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">تاريخ السفر</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-calendar"></i></span>
+                                    <input type="date" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">&nbsp;</label>
+                                <button type="submit" class="btn btn-primary w-100">ابحث عن الرحلات</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">خدماتنا</h2>
+            <div class="row g-4">
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center">
+                            <a href="https://wa.me/+201127861194" style="text-decoration: none !important;" target="_blank">
+                                <i class="fas fa-plane-departure service-icon"></i>
+                                <h5 class="card-title">رحلات داخلية</h5>
+                                <p class="card-text">احجز رحلات إلى جميع المدن الرئيسية في مصر</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center">
+                            <a href="https://wa.me/+201127861194" style="text-decoration: none !important;" target="_blank">
+                                <i class="fas fa-globe service-icon"></i>
+                                <h5 class="card-title">رحلات دولية</h5>
+                                <p class="card-text">الوصول إلى وجهات حول العالم</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center">
+                            <a href="https://wa.me/+201127861194" style="text-decoration: none !important;" target="_blank">
+                                <i class="fas fa-kaaba service-icon"></i>
+                                <h5 class="card-title">رحلات العمرة والحج</h5>
+                                <p class="card-text">حزمات خاصة للعمرة والحج</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center">
+                            <a href="https://wa.me/+201127861194" style="text-decoration: none !important;" target="_blank">
+                                <i class="fas fa-building service-icon"></i>
+                                <h5 class="card-title">حجز الشركات</h5>
+                                <p class="card-text">دعم مخصص للشركات</p>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">آراء العملاء</h2>
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left mb-3"></i>
+                        <p class="mb-3">جعلت شركة زمزم تجربتي في حجز الرحلات سلسة. وجدت تذاكر بأسعار معقولة بسرعة وسهولة!</p>
+                        <strong>- أحمد.</strong>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left mb-3"></i>
+                        <p class="mb-3">موصى به بشدة لأي شخص يبحث عن خدمات حجز رحلات موثوقة. خدمة العملاء لديهم ممتازة.</p>
+                        <strong>-  ملك.</strong>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left mb-3"></i>
+                        <p class="mb-3">حجزت رحلتي إلى العمرة من خلال شركة زمزم، وكانت العملية سلسة وخالية من المتاعب. شكرا!</p>
+                        <strong>- محمد.</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </section>
+        
+            <!-- Why Zamzam -->
+            <section id="why-zamzam" class="py-5">
+                <div class="container">
+                    <h2 class="text-center mb-5" data-aos="fade-up">لماذا زمزم للسياحة؟</h2>
+                    <div class="row g-4">
+                        <div class="col-md-4" data-aos="fade-up">
+                            <div class="why-card text-center">
+                                <i class="fas fa-check-circle mb-3"></i>
+                                <h4 class="mb-3">خبرة طويلة</h4>
+                                <p>أكثر من 15 عامًا من الخبرة في مجال السياحة والسفر، نقدم خدمات موثوقة ومتميزة لعملائنا</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="why-card text-center">
+                                <i class="fas fa-hand-holding-usd mb-3"></i>
+                                <h4 class="mb-3">أسعار تنافسية</h4>
+                                <p>نقدم أفضل الأسعار في السوق مع ضمان جودة الخدمة والراحة لعملائنا</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="why-card text-center">
+                                <i class="fas fa-headset mb-3"></i>
+                                <h4 class="mb-3">دعم على مدار الساعة</h4>
+                                <p>فريق خدمة العملاء متاح 24/7 للرد على استفساراتكم وتقديم المساعدة الفورية</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="why-card text-center">
+                                <i class="fas fa-plane mb-3"></i>
+                                <h4 class="mb-3">تنوع الوجهات</h4>
+                                <p>نوفر رحلات متنوعة لجميع الوجهات السياحية والدينية حول العالم</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                            <div class="why-card text-center">
+                                <i class="fas fa-shield-alt mb-3"></i>
+                                <h4 class="mb-3">حجوزات آمنة</h4>
+                                <p>نضمن لكم حجوزات آمنة وموثوقة مع أفضل شركات الطيران والفنادق العالمية</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                            <div class="why-card text-center">
+                                <i class="fas fa-gift mb-3"></i>
+                                <h4 class="mb-3">عروض خاصة</h4>
+                                <p>نقدم عروضاً وخصومات خاصة على مدار العام لعملائنا المميزين</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="footer-top py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-widget">
+                            <img src="assets/Logo.png" alt="Zamzam Tourism Logo" class="footer-logo mb-4">
+                            <p class="mb-4">نحن نقدم خدمات سياحية متكاملة لعملائنا، مع التركيز على تجربة سفر استثنائية وخدمة عملاء متميزة.</p>
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://wa.me/+201127861194" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
+                                <!-- <a href="#" class="social-link"><i class="fab fa-twitter"></i></a> 
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-widget">
+                            <h3 class="footer-title">روابط سريعة</h3>
+                            <ul class="footer-links list-unstyled">
+                                <li><a href="#home">الرئيسية</a></li>
+                                <li><a href="#services">خدماتنا</a></li>
+                                <li><a href="#why-zamzam">لماذا زمزم</a></li>
+                                <li><a href="#testimonials">آراء العملاء</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-widget">
+                            <h3 class="footer-title">معلومات الاتصال</h3>
+                            <ul class="footer-contact">
+                                <li>
+                                    <a href="https://goo.gl/maps/1dDVKkJnLetRpPEs8" style="text-decoration: none !important; color: #fff;">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>123 شارع الرئيسي، القاهرة، مصر</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                    <a href="tel:+201127861194" style="text-decoration: none !important; color: #fff; direction: ltr;">+2 0112 786 1194</a>
+                                </li>
+                                <li>
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                    <a href="https://wa.me/+201127861194" style="text-decoration: none !important; color: #fff; direction: ltr;" target="_blank">
+                                        <span style="direction: ltr;">+2 0112 786 1194</span>
+                                    </a>
+                                </li>
+                                <!-- <li>
+                                    <i class="fas fa-envelope"></i>
+                                    <span>info@zamzamtourism.com</span>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="footer-bottom py-3">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-end">
+                        <p class="mb-0">&copy; 2025 شركة زمزم للسياحة. جميع الحقوق محفوظة.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-0">تم التطوير بواسطة الفريق التقني في  <a href="https://www.facebook.com/people/UP-Marketing/61557909787487/?mibextid=ZbWKwL" class="footer-link">Up Marketing</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
